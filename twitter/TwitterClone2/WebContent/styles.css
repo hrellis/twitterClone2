@@ -1,27 +1,96 @@
 @CHARSET "UTF-8";
-#body
+body
 {
 	font-family: Arial, Helvetica, sans-serif;
-	color: blue;
+	color: #3366CC;
 	font-size: 12px;
+	position:relative;
+    margin:0;
+    background-color: #EEE;
 }
 
-body h1
+h1
 {
-	font-size: 16px;
-	color: purple;
+	text-align: center;
+}
+#wrapper
+{
+	width:900px;
+	margin:auto;
 }
 
 #topBanner
 {
-	width: 100px; 
 	height: 45px;
-	background-color: #CCC;
-	color: #000099
+	background-color: #888;
+	color: #000099;
+	padding: 5px 10px;
+}
+
+#topBanner h1
+{
+	font-size: 20px;
+	color: purple;
+	margin-top:0px;
+	padding: 10px;
+	float: left;
+	width:550px;
+}
+
+#topBanner a
+{
+	font-size: 18px;
+	color: purple;
+	margin-top:0px;
+	padding: 10px;
+	text-decoration: none;
+	float: left;
 }
 
 #mainPage
 {
-	width: 100px;
+	background-color: #CCC;
+	color: #3366CC;
+	min-height:550px;
+}
+
+#tweets
+{
+	background-color: #CCC;
+	color: #3366CC;	
+	padding: 10px;
+	text-align:left;
+	width: 580px;
+	float:left;
+}
+
+# tweets h1
+{
+	font-size:14px;
+}
+
+#profile
+{
+	background:#CCC;
+	padding: 10px;
+	text-align:center;
+	width: 280px;
+	float:left;
+}
+
+#login
+{
+	background:#CCCCFF;
+	width:300px;
+	margin:auto;
+	padding: 10px;
+}
+
+#register
+{
+	background:#CCCCFF;
+	width:300px;
+	margin:auto;
+	padding: 10px;
 }
 
